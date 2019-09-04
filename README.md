@@ -8,6 +8,7 @@ atm_forcing - a folder with all atmoshperic forcing for CLM
 LICENSE - user license - mind that this repository is mainly made to reproduce the results in my Ph.D. thesis (if you wish to use the files for other purposes, please contact me via Email - ingewiekenkamp@gmail.com)
 README.md - the current file with information on the files that are stored in this repository
 convert_indi_13l.tcl	- a ParFlow .tcl script to distribute the indicator file (on a parallel computer)
+coup_oas_wbach.tcl - the main ParFlow -tcl script for the Wüstebach model
 dist_indi_yr_13l.sa - ParFlow indicator file (13 layers) for the Wüstebach model (to set the distributed Mualem van Genuchten parameterization)
 fracdata_Wue.nc - CLM file with fracdata for the Wüstebach catchment (10 m resolution)
 griddata_Wue.nc - CLM file with griddate for the Wüstebach catchment (10 m resolution)
